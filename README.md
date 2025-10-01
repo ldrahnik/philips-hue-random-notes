@@ -11,3 +11,7 @@
 ```
 echo "scale=2; $(curl -s http://<found bridge IP>/api/<generated username>/sensors/30 | jq .state.temperature)/100" | bc -l
 ```
+
+## Connect to the bridge using phone
+
+- Disable mobile data and be on the same network
